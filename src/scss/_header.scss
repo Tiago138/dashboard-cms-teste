@@ -1,0 +1,71 @@
+.header--container {
+  padding-top: 20px;
+  padding-inline: 40px;
+}
+
+.header--line1 {
+  width: 1090px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  padding-inline: 20px;
+  border: 1px solid rgb(179, 176, 176);
+  box-shadow: inset 2px 2px 2px rgb(179, 176, 176);
+}
+
+.user--ingo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .mesages {
+    font-size: 24px;
+    color: #cacccf;
+  }
+  .user--picture {
+    img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.header--card--container {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.header--card {
+  width: 250px;
+  height: 90px;
+  background-color: white;
+  border-radius: 10px;
+  color: #fbd973;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+
+  &--info {
+    display: grid;
+
+    p {
+      font-size: 12px;
+      color: black;
+      font-weight: bold;
+    }
+
+    span {
+      font-size: 16px;
+    }
+  }
+}

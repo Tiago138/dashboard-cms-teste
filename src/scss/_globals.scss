@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #f6f8fb;
+}
+
+.content--grid {
+  display: grid;
+  grid-template-areas: "menu content";
+
+  .content {
+    grid-area: content;
+  }
+}
